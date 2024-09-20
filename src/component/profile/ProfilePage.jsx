@@ -116,8 +116,7 @@ const ProfilePage = () => {
                     <strong>Room Type:</strong> {booking.room.roomType}
                   </p>
                   <img src={booking.room.roomPhotoUrl} alt="Room" className="room-photo" />
-
-                  {/* Add Cancel Booking Button */}
+                  
                   <button
                     className="acheive-booking"
                     onClick={() => handleCancelBooking(booking.id)}
